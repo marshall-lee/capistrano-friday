@@ -1,6 +1,6 @@
 # capistrano-friday
 
-Why you [deploy](github.com/capistrano/capistrano) on friday?!
+Why you [deploy](https://github.com/capistrano/capistrano) on friday?!
 
 *(inspired by [twitter joke](https://twitter.com/yurykusik/status/556064634525204481))*
 
