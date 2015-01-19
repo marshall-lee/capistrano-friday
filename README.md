@@ -2,6 +2,8 @@
 
 Why you [deploy](github.com/capistrano/capistrano) on friday?!
 
+*(inspired by [twitter joke](https://twitter.com/yurykusik/status/556064634525204481))*
+
 ## Installation
 
 Add this line to your application's Gemfile:
