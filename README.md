@@ -41,7 +41,7 @@ before 'deploy:starting', 'friday:check'
 In default configuration it's just a warning but you can completely disable deploying by setting:
 
 ```ruby
-set :friday_disable_deploy, false
+set :friday_disable_deploy, true
 ```
 
 You also can change default MOTD (default is `:base_jumper`):
