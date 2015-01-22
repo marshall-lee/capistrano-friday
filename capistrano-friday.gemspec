@@ -19,4 +19,5 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'capistrano', '~> 3.0'
   spec.add_dependency 'sshkit', '~> 1.2'
+  spec.add_dependency 'colorize'
 end

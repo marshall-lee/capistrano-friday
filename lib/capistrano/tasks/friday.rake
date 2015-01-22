@@ -1,3 +1,5 @@
+require 'colorize'
+
 namespace :friday do
   motds = {
     :base_jumper => %{
@@ -11,7 +13,7 @@ namespace :friday do
 ┛┗┛┗┛┃
 ┓┏┓┏┓┃          luck!
 ┃┃┃┃┃┃
-┻┻┻┻┻┻ 
+┻┻┻┻┻┻
 }.strip!,
     :flipping_table => %{
 (╯°□°）╯︵ ┻━┻    FRIDAY DEPLOY!
