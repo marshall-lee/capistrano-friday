@@ -29,7 +29,7 @@ Require in Capfile to use the task:
 require 'capistrano/friday'
 ```
 
-In your `config/deploy.rb` do something like that:
+In your `config/deploy.rb` (or `config/deploy/production.rb`) do something like that:
 
 ```ruby
 # config/deploy.rb
