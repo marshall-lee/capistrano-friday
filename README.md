@@ -1,5 +1,7 @@
 # capistrano-friday
 
+![https://twitter.com/iamdevloper/status/450905958139834368](https://pbs.twimg.com/media/BkHwlGBIgAEsSP7.jpg)
+
 Why you [deploy](https://github.com/capistrano/capistrano) on friday?!
 
 *(inspired by [twitter joke](https://twitter.com/yurykusik/status/556064634525204481))*
