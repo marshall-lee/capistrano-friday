@@ -21,7 +21,10 @@ namespace :friday do
   }
 
   task :check do
-    invoke 'friday:good_luck' if Time.now.friday?
+    ignore = fetch :friday_ignore_env
+    unless ignore.include?(fetch(:stage))
+      invoke 'friday:good_luck' if Time.now.friday?
+    end
   end
 
   task :good_luck do
@@ -40,5 +43,6 @@ namespace :load do
   task :defaults do
     set :friday_motd, :base_jumper
     set :friday_disable_deploy, false
+    set :friday_ignore_env, [:staging]
   end
 end
