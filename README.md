@@ -52,6 +52,8 @@ You also can change default MOTD (default is `:base_jumper`):
 set :friday_motd, :flipping_table
 ```
 
+**TODO:** need to add many more MOTDs!
+
 Ignore stages, so not as to punish the testing of code:
 
 ```ruby
@@ -63,8 +65,6 @@ set :friday_ignored_stages, nil
 ```
 
 By default, `:staging` is already ignored.
-
-**TODO:** need to add many more MOTDs!
 
 ## Contributing
 
