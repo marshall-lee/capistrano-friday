@@ -52,11 +52,17 @@ You also can change default MOTD (default is `:base_jumper`):
 set :friday_motd, :flipping_table
 ```
 
-Ignore environments, so not as to punish the testing of code
+Ignore stages, so not as to punish the testing of code:
 
 ```ruby
-set :friday_ingnore_env, [:staging]
+set :friday_ignored_stages, :staging
+# or
+set :friday_ignored_stages, [:staging, :testing]
+# or completely remove
+set :friday_ignored_stages, nil
 ```
+
+By default, `:staging` is already ignored.
 
 **TODO:** need to add many more MOTDs!
 
