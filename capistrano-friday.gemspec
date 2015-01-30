@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "capistrano-friday"
-  spec.version       = '0.0.3'
+  spec.version       = '0.1.0'
   spec.authors       = ["Vladimir Kochnev"]
   spec.email         = ["hashtable@yandex.ru"]
   spec.summary       = %q{You better stab yourself if you deploy on friday!}
